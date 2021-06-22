@@ -1,0 +1,26 @@
+{
+  "name": "baki",
+  "version": "0.0.1",
+  "description": "A package for Tracking Due in shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "due",
+    "rent",
+    "rent",
+    "tracker"
+  ],
+  "author": "Imran-S-heikh",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cli-table": "^0.3.6",
+    "uuid": "^8.3.2",
+    "yargs": "^17.0.1"
+  },
+  "bin": {
+    "baki": "./index.js"
+  }
+}
