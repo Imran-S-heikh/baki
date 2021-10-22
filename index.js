@@ -7,6 +7,7 @@ const formatData = require('./utils/formatData');
 const colorMap = require('./utils/colorMap');
 const addNew = require('./functions/addNew');
 const history = require('./functions/history');
+const getHelp = require('./functions/help');
 
 const args = process.argv.slice(2);
 
@@ -15,6 +16,8 @@ if (args[0] === 'add' | args[0] === 'rm' | args[0] === 'remove' && !isNaN(args[1
    addNew(args[1],args[0],args[2]);
 }else if(args[0] === 'history'){
     history();
+}else if (args[0] === 'help' | args[0] === '--help') {
+    getHelp();
 }
 
 
